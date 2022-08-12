@@ -1,9 +1,10 @@
 {
-  "name": "my-gatsby-site",
-  "version": "1.0.0",
+  "name": "doc",
+  "version": "0.1.0",
   "private": true,
-  "description": "my-gatsby-site",
+  "description": "Documentation for ncku-study",
   "author": "Vacantron Chen",
+  "homepage": "https://github.com/ncku-study/doc",
   "keywords": [
     "gatsby"
   ],
@@ -13,7 +14,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "deploy": "gh-pages -u build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.0",
@@ -23,6 +25,7 @@
     "gatsby-plugin-google-analytics": "^4.20.0",
     "gatsby-source-filesystem": "^4.20.0",
     "gatsby-transformer-remark": "^5.20.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
